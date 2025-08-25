@@ -1,0 +1,43 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Section demonstrating Box Model */
+.content-box {
+    background-color: #fff;
+    width: 80%;
+    margin: 20px auto; /* Margin centers the box */
+    padding: 20px; /* Inner spacing */
+    border: 2px solid #333; /* Border around content */
+    box-sizing: border-box; /* Includes padding and border in width */
+}
+
+/* Typography and lists */
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
